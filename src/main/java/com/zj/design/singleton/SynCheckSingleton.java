@@ -18,7 +18,7 @@ public class SynCheckSingleton {
 	 * @return
 	 */
 	public static SynCheckSingleton getInstance(){
-		if(instance == null){
+		if(null == instance){
 			synchronized (SynCheckSingleton.class) {
 				if(null == instance){
 					instance = new SynCheckSingleton();

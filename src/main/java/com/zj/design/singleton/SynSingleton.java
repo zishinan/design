@@ -14,7 +14,7 @@ public class SynSingleton {
 	 * @return
 	 */
 	public static synchronized SynSingleton getInstance(){
-		if(instance == null){
+		if(null == instance){
 			instance = new SynSingleton();
 		}
 		return instance;
